@@ -28,3 +28,6 @@ const Patient = new Schema(
 );
 
 module.exports = mongoose.model('patient', Patient);
+
+//this is what the csv file is getting collected from mongodb
+//mongoimport --type csv -d item -c patients --headerline --uri 'mongodb+srv://Admin:hdswe2022@cluster0.tcqrk.mongodb.net/item' data.csv
