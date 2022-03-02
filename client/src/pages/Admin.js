@@ -12,7 +12,7 @@ const Wrapper = styled.div`
   padding: 0 40px 40px 40px;
 `;
 
-class ItemsList extends Component {
+class Admin extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -170,4 +170,4 @@ class ItemsList extends Component {
   }
 }
 
-export default ItemsList;
+export default Admin;
